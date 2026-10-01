@@ -34,10 +34,6 @@ let lang = navigator.language.toLowerCase().slice(0, 2);
 if( lang == "ja") langn = 0, fontFamily = "Noto Sans JP";
 else langn = 1;
 
-//debug用
-lang = "en"
-langn = 1;
-
 const link = document.createElement("link");
 link.rel = "stylesheet";
 // 空白をプラスに変換して正しいURLを作ります
